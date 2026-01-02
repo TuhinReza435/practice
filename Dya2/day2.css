@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mian_div{
+    width: 100vw;
+    height:100vh;
+    background-image: url('./img.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+#head{
+     background-color: rgb(42, 42, 95);
+     color: red;
+     font-size: large;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    color: red;
+}
+
+
+.mian_div::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('./img.jpeg');
+    background-size: cover;
+    opacity: 0.3; /* ইমেজকে কতোটা হালকা দেখাবে (০.১ থেকে ১ এর মধ্যে) */
+    z-index: -1;  /* ইমেজকে লেখার পেছনে রাখবে */
+}
