@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head_section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 1px solid red;
+    background-color: red; */
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    /* background-color: white; */
+    margin-bottom: 0px;
+}
+.head_nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.head_nav .head_element{
+    font-size: 16px;
+    font-weight: 600;
+}
+.head_section img{
+    height: 60px;
+    width: 139px;
+}
+.head_section button{
+    background-color: green;
+    font-size:16px;
+    font-weight:600;
+    border-radius:5px;
+    color: white;
+    padding: 12.5px 16px;
+}
+.section1{
+    
+    width: 100%;
+    height:80vh;
+    background: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), 
+                url('./B13-A01-Knowledge-Vault/./assets/hero-bg.png');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                min-height: 100vh;
+    
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   
+}
+.sec1_btn1{
+    width: 229px;
+    height:35px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #30B868;
+}
+.sec1_hed1{
+    color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-size: 64px;
+}
+.sec1_hed2{
+    color: rgb(64, 174, 108);
+    font-weight: bolder;
+    font-size: 64px;
+}
+.section1 p{
+    font-size: 18px;
+    text-align: center;
+    padding-top:10px;
+    color: aliceblue;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 16px;
+}
+.sec1_btn2{
+    width: 251px;
+    height: 52px;
+    background-color: #30B868;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sec1_btn3{
+    width: 198px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: bold;
+}
