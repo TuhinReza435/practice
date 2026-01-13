@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+     margin: 0px auto ;/* majhe cole asched */
+    display: flex;
+    justify-content: space-between;
+    
+}
+ nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+
+}
+.logo h2{
+    font-size: 45px;
+}
+.orange{
+    color: #FD6E0A;
+    font-weight: bolder;
+
+}
+ .menu {
+    font-size: 20px;
+    color: #474747;
+   
+}
+.btn{
+    width: 150px;
+    height: 65px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+.menu li a{
+    text-decoration: none;
+}
