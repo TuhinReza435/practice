@@ -92,10 +92,55 @@ main > section{
     color: #FF900E;
     margin-bottom: 45px;
 }
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fact{
+    border: 1px solid #FF900E ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+}
+.fact div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+.number{
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #424242;
+   
+}
+.fact-name{
+    font: 1.8rem;
+    color: #424242;
+}
+.feature-description{
+   max-width: 540px;
+}
 
 @media screen and (max-width:576px) {
-   .nav-bar,.nav-link{
+   .nav-bar,.nav-link,.teams{
         flex-direction: column;
         text-align: center;
     }
+    .team-img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+}
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+      .teams{
+        flex-direction: column;
+      }
 }
