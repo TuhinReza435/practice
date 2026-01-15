@@ -22,6 +22,10 @@
 .bg-light{
      background-color: rgba(255, 144, 14, 0.1);
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .btn-primary{
     background-color: #FF900E;
     color: white;
@@ -31,6 +35,7 @@
     border-radius: 8px;
     margin-bottom: 50px;
 }
+
 .brand{
     color: #131313;
     font-weight: 700;
@@ -64,6 +69,28 @@
 }
 .bannar img{
      width: 100%;
+}
+.teams{
+    align-items: center;
+    gap: 98px;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+main > section{
+    margin-top: 130px;
+}
+.features-title{
+    font-size: 3rem;
+}
+.our-features{
+    max-width: 530px;
+}
+.part2{
+    color: #FF900E;
+    margin-bottom: 45px;
 }
 
 @media screen and (max-width:576px) {
