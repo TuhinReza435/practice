@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2 px solid tomato;
+    background-color: peachpuff;
+    transition: width 5s linear 3s;
+    transition: transform 3s;
+    
+}
+.box:hover{
+    /* width: 400px; */
+    transform: rotate(45deg);
+}
