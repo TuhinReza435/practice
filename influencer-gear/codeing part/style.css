@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display-fix{
+    width:85%;
+    margin: 90px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.nav-head{
+    font-size: 1.5rem;
+    color: #3a3a3a;
+    font-weight: bold;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 34px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.section1 div h1{
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: #3a3a3a;
+    max-width: 582px;
+}
+
+.section1 div p{
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 400;
+    max-width: 505px;
+    margin: 16px 0;
+}
+
+.section1 div button{
+    color:#FFFFFF;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius:41px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.camera{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.section2{
+    width: 78%;
+    margin: 0 auto;
+}
+
+.section2 ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:576px) {
+    nav,
+    .nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-head{
+        text-align: center;
+    }
+
+    .section1{
+        flex-direction: column-reverse;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .camera img{
+        width: 100%;
+    }
+
+    .section1 div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1 div h1,
+    .section1 div p{
+        text-align: center;
+    }
+
+    .section2 ul{
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .section1{
+        gap: 60px;
+    }
+
+    .section2 ul{
+        grid-template-columns: repeat(5,1fr);
+        justify-items: center;
+    }
+}
