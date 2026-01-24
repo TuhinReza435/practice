@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme {
+  --color-deep-navy: #1A0B2E;
+}
+#bg-img-1{
+    background-image: url('../B13-A02-TechWave/assets/hero-bg.png');
+    width: 100%;
+}

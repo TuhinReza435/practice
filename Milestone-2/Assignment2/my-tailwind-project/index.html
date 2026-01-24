@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <title>Tailwind 4 Check</title>
+  </head>
+  <body class="bg-deep-navy">
+    <header class="w-full">
+      <nav class="mt-6 mb-5">
+        <div class="flex justify-around items-center">
+          <div>
+            <span class="text-5xl font-bold text-white">Tech</span>
+            <span
+              class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#F69186] to-[#D300C5]"
+            >
+              Wave
+            </span>
+          </div>
+
+          <ul class="text-white flex justify-around items-center gap-7">
+            <li>About</li>
+            <li>Episodes</li>
+            <li>Host</li>
+          </ul>
+
+          <div
+            class="flex items-center text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]"
+          >
+            Subscribe
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section
+      id="bg-img-1"
+      class="h-[720px] mx-auto bg-[url('/hero-bg.png')] bg-cover bg-center min-h-[400px] flex flex-col justify-center items-center"
+    >
+      <img
+        src="./B13-A02-TechWave/assets/hero-circle.png"
+        alt=""
+        class="mx-w-[350px] mx-h-[350px]  mt-[-120px]"
+      />
+      <div class="bg-red-900 flex flex-col justify-center items-center">
+        <h1 class="text-6xl text-white font-bold">TechWave</h1>
+        <p class="text-white">
+          Your daily dose of tech insights, productivity hacks, and personal
+          growth
+        </p>
+        <div class="flex gap-3 mt-5">
+          <button class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-3 rounded-4xl text-white"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+          <button class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-3 rounded-4xl text-white"><i class="fa-brands fa-spotify"></i>Subscribe</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
