@@ -13,10 +13,29 @@
 // divisible by 4
 // divisileb bye 100 and 400
 
-function leapYear(Year)
-{
-    if( (Year%400==0 && Year%100==0) || (Year%4==0 && Year%100!=0 ) )return true;
-    else return false;
+// function leapYear(Year)
+// {
+//     if( (Year%400==0 && Year%100==0) || (Year%4==0 && Year%100!=0 ) )return true;
+//     else return false;
+// }
+//  let leapyearCheck=leapYear(2000);
+//  console.log(leapyearCheck);
+
+
+// 'avarge of odd number '
+
+let arr = [];
+for(let i=0;i<50;i++){
+    let x = Math.floor(Math.random()*94)+5;
+    if(x%2==1)
+    arr.push(x);
 }
- let leapyearCheck=leapYear(2000);
- console.log(leapyearCheck);
+let sum = 0 ;
+console.log(arr);
+for(let x of arr){
+    sum+=parseInt(x);
+}
+console.log(sum);
+
+
+// Find duplicate value and remove 
