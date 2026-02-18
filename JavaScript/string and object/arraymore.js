@@ -9,4 +9,4 @@ const friends =['elon','bill','mark','waren'];
 for(let friend of friends)console.log(friend);
 
 const number =[1,2,3,6,5,4,3,23,2,1];
-console.log(number.sort(function(a,b){return b-a}));// js sorting 
+console.log(number.sort(function(a,b){return b-a}));
